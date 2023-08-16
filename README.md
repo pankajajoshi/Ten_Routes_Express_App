@@ -1,4 +1,4 @@
-<h1>Creating 10 Routes using Epress and EJS</h1>
+<h1>Creating 10 Routes using Express and EJS</h1>
 
 <h2>Requirements</h2>
 

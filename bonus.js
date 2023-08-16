@@ -1,6 +1,6 @@
-const express = require('express');
-const app = express();
-const port = 3000;
+// const express = require('express');
+// const app = express();
+// const port = 3000;
 
 const routes = [
     { url: '/', page: 'funerror1' },
@@ -16,18 +16,21 @@ const routes = [
    
 ];
 
-// Set EJS as the view engine
-app.set('view engine', 'ejs');
+module.exports = routes;
 
-// Define the route handlers dynamically
-routes.forEach((route) => {
-    app.get(route.url, (req, res) => {
-      res.render(route.page);
-    });
-  });
+// // Set EJS as the view engine
+// app.set('view engine', 'ejs');
+
+// // Define the route handlers dynamically
+// routes.forEach((route) => {
+//     app.get(route.url, (req, res) => {
+//       res.render(route.page);
+//     });
+//   });
   
 
-// Start the server
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
-});
+// // Start the server
+// app.listen(port, () => {
+//   console.log(`Server is running on http://localhost:${port}`);
+// });
+

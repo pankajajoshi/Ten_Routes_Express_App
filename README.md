@@ -23,3 +23,6 @@
 
 <p><h5>EJS templates are essentially HTML files with embedded JavaScript code. 
   The embedded JavaScript code is enclosed within <% %> tags, and the output of the JavaScript code can be inserted into the HTML markup using <%= %> tags.</h5></p>
+
+  <h2>BONUS</h2>
+  <p><h5>Dynamically add links to your view engine so you can make anchor tags to link your pages together, hmmm how would you do that ..... hint split, loop , you can figure it out, but it will take a lot of problem-solving, you'll have to do more than change one line of code, but it will only take a few lines of code, use an array or object another </h5></p>

@@ -13,6 +13,8 @@
 
 <h2>Screenshot for 10 routes</h2>
 
+<img src="Screenshot 2023-08-16 112122.png" />
+
 
 <h2>Information on EJS</h2>
 <p><h5>EJS (Embedded JavaScript) is a popular templating language for JavaScript that allows you to generate dynamic HTML markup. 

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My EJS</title>
+</head>
+<body>
+  <nav>
+    <% routes.forEach(route => { %>
+      <a href="<%= route.url %>"><%= route.page %></a>
+    <% }) %>
+  </nav>
+</body>
+</html>

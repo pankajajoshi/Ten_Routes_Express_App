@@ -2,10 +2,10 @@
   "name": "ten_routes_express_app",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "bonus.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon"
   },
   "keywords": [],
   "author": "",
